@@ -47,12 +47,12 @@ console.log(brickCalculator(10));
 
 //Array Calculation :
 function tinyFriend(friendName){
-    result = friendName[0];
+    var result = friendName[0];
     for(i = 0; i<friendName.length; i++){
         if( friendName[i].length < result.length ){
             result = friendName[i];
         }
     }
-    return friendName.values();
+    return result;
 }
-console.log(tinyFriend(["an",'a','dr']))
+console.log(tinyFriend(["hossain","aru","ikbal"]))
